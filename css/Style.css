@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+.container {
+    width: 100%;
+    margin: auto;
+    background: url(../img/background.jpg);
+    opacity: .9;
+}
+
+a {
+    color: rgb(31, 176, 55);
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav-main {
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+    background-color: rgba(4, 166, 4, 0.16);
+}
+
+.nav-main ul {
+    display: flex;
+  }
+  
+.nav-main ul li {
+    padding: 10px;
+}
+
+img{
+    width: 200px;
+}
+
