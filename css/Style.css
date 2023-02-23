@@ -4,51 +4,39 @@
     padding: 0;
     }
 
-.container {
+.container{
     width: 100%;
     margin: auto;
-    background: white;  /*url(../img/background.jpg)*/
+    background: white;
 }
 
-h2 {
-    text-align: center; 
-    font-family: Arial Black; 
-    font-weight: bold; font-size: 30px; 
-    background: #202020; 
-    -webkit-background-clip: text; 
-    -moz-background-clip: text; 
-    background-clip: text; 
-    color: transparent; 
-    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
-    }
-
-a {
-    color: rgba(21, 19, 43, 0.851);
+a{
+    color: rgba(248, 248, 255, 0.851);
     text-decoration: none;
 }
 
 .nav-main a:hover{
-    border-bottom: dotted green;
+    border-bottom: dotted rgba(34, 30, 101, 0.881);
 }
 
-ul {
+ul{
     list-style: none;
 }
 
-.nav-main {
+.nav-menu{
     font-size: 24px;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 60px;
-    background-color: rgba(4, 166, 4, 0.16);
+    background-color: rgba(21, 23, 154, 0.833);
 }
 
-.nav-main ul {
+.nav-main ul{
     display: flex;
 }
   
-.nav-main ul li {
+.nav-main ul li{
     padding: 15px;
 }
 
@@ -60,6 +48,18 @@ ul {
     margin: 30px auto;
     display: flex;
 }
+    /* COMIENZA CONTAINER IMG */
+h2{
+    text-align: center; 
+    font-family: Arial Black; 
+    font-weight: bold; font-size: 30px; 
+    background: #202020; 
+    -webkit-background-clip: text; 
+    -moz-background-clip: text; 
+    background-clip: text; 
+    color: transparent; 
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.4),0px -1px 1px rgba(0,0,0,0.3);
+    }
 
 img{
     width: 300px;
@@ -80,46 +80,54 @@ img{
 
 /* empieza la seccion contacto */
 .banner{
-    height: 200px;
+    height: 300px;
     display: flex;
-    background-color:black;
-    justify-content: space-around;
-    padding-top: 50px;
+    background: linear-gradient(white, grey);
+    justify-content: center;
+    padding-top: 150px;
     
 }
 
-.btn li{
+.presentation li{
     display: inline;
+    justify-content: space-around;
     padding: 60px;
 }
 
-.btn a{
-    font-family: Arial; 
-    font-size: 50px; 
+.presentation a{
+    font-family: "Lucida Console", Courier, monospace; 
+    font-size: 42px; 
     COLOR: #1278BF; 
-    text-shadow: 0px 0px 9px #508AD3;
+    text-shadow: 1px 0px 9px #508AD3;
 }
+    /* Redes Sociales */
 
 .social h3 {
     text-align: center; 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-family: "Lucida Console", Courier, monospace;
     font-size: 40px; 
-    COLOR: #1278BF; 
-    text-shadow: 0px 0px 9px #508AD3;
+    COLOR: #145888f0; 
+    text-shadow: 0px 0px 7px #508AD3;
     padding-bottom: 30px;
+    padding-top: 25px;
     }
-
+    /* 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  */
 .social{
-    height: 200px;
-    background-color: black;
+    height: 300px;
+    background: linear-gradient(grey, black);
     text-align: center;
 }
 
 .icon{
-    font-size: 30px;
-    COLOR: #1278BF; 
-    text-shadow: 0px 0px 9px #508AD3;
+    font-size: 36px;
+    COLOR: #116eb0f4; 
+    text-shadow: 0px 0px 6px #2a62a7a9;
     margin: 20px;
 }
-
+ /* Copyright */
+.copyright{
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.611);
+    padding-top: 60px;
+}
 
