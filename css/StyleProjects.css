@@ -15,14 +15,5 @@ h1{
 
 #galeria img:hover{
     border: 5px solid #44459f;
-}
-
-.btn_1{
-    border: none;
-    background-color: #44459f;
-    color: white;
-    padding: 14px 28px;
-    font-size: 16px;
     cursor: pointer;
-    display: inline-block;
 }
