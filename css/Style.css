@@ -185,3 +185,27 @@ img{
 .presentation p{
     font-size: 18px;
 }
+/*boton de wpp*/
+#whatsapp-button {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  #whatsapp-button a {
+    display: block;
+    background-color: #25d366;
+    color: #efefef;
+    padding: 10px 15px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
+  }
+  
+  #whatsapp-button a i {
+    margin-right: 10px;
+  }
